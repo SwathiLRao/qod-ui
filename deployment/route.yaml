@@ -2,7 +2,7 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: qod-app
-  namespace: qod-app
+  namespace: qod-managed-app
 spec:
   path: /
   to:
